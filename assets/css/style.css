@@ -751,6 +751,7 @@ main {
 .clients-item img {
   width: 100%;
   filter: grayscale(1);
+  text-align: center;
   transition: var(--transition-1);
 }
 
