@@ -1,119 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>Mynaniag CV</title>
-
-	<link rel="stylesheet" href="css/main.css">
-
-	<script src="libs/gsap/gsap.min.js" defer></script>
-	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
-	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
-
-	<script src="js/app.js" defer></script>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mynaniag CV</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layer__header">
+                        <div class="layers__caption">Daroshchanka Mikalai Mikalaevich</div>
+                        <div class="layers__title">CV</div>
+                    </div>
+                    <div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+                    <div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+                    <div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+                </div>
+            </header>
 
-	<div class="wrapper">
-		<div class="content">
-
-			<header class="main-header">
-				<div class="layers">
-					<div class="layer__header">
-						<div class="layers__caption">Daroshchanka Mikalai Mikalaevich</div>
-						<div class="layers__title">CV</div>
-					</div>
-					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
-					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
-					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
-				</div>
-			</header>
-		
-			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
-				<div class="main-article__content">
-					<h2 class="main-article__header">My CV page</h2>
-					<p class="main-article__paragraph">Work Experience
-October 2024 — Present
-
-SoftLineBel
-softline.by
-
-Information Technology, System Integration, Internet
-
-Cybersecurity Engineer SIEM L2
-
-Responsibilities:
-
-    Analysis, normalization, and enrichment of data for SIEM products by Pozitive Technologies (SIEM, VM).
-    Development of correlation, normalization, enrichment, and aggregation rules to ensure cybersecurity.
-    Holds MP CS SIEM, CP SIEM certificates.
-    Experience in solving cases on the Standoff Cyberbones platform (free version).
-
-April 2022 — September 2024
-
-Alfa-Bank (Belarus)
-www.alfabank.by
-
-Financial Sector
-
-IT Monitoring Specialist 2nd Category
-
-Responsibilities:
-
-    Monitoring in Grafana and Zabbix for the bank's main processes.
-    Incident documentation in Jira.
-    Execution of scripts in emergency situations.
-    Incident investigation among developers.
-    Incident analytics in the banking environment.
-
-September 2021 — December 2021
-
-Playtika
-Minsk, playtika.com
-
-Information Technology, System Integration, Internet
-
-Junior DevOps Training
-
-Responsibilities:
-
-    Training for the DevOps position.
-    Study of Linux OS (Ubuntu, Debian, RedHat), including basic commands and script writing.
-    Linux networking (wireshark, tcpdump, basic commands for network operations, ssh, apache web server).
-    Work with Git (hooks, branching, tagging).
-    Configuration and operation of PostgreSQL and MariaDB databases in Linux.
-    Work with Aerospike, Jenkins, Docker, Kubernetes.
-    Monitoring using Prometheus and Grafana.
-    Automation of settings and software deployment using Ansible.
-
-Education and Certifications
-
-    MP CS SIEM, CP SIEM certificates.
-    Experience in solving cases on the Standoff Cyberbones platform (free version).
-
-Skills
-
-    SIEM products by Pozitive Technologies (SIEM, VM)
-    Monitoring systems (Grafana, Zabbix)
-    Incident documentation (Jira)
-    Linux OS (Ubuntu, Debian, RedHat)
-    Networking technologies (wireshark, tcpdump, ssh, apache web server)
-    Version control systems (Git)
-    Databases (PostgreSQL, MariaDB)
-    Containerization and orchestration (Docker, Kubernetes)
-    Monitoring and automation (Prometheus, Grafana, Ansible)
- </p>
-				</div>
-				<div class="copy">© Mikalai Daroshchanka (spizdil)</div>
-			</article>
-
-		</div>
-	</div>
-
+            <article class="main-article" style="background-image: url(img/dungeon.jpg);">
+                <div class="main-article__content">
+                    <h2 class="main-article__header">My CV page</h2>
+                    <section class="work-experience">
+                        <h3>Work Experience</h3>
+                        <div class="job">
+                            <h4>October 2024 — Present</h4>
+                            <p><strong>SoftLineBel</strong> - <a href="https://softline.by">softline.by</a></p>
+                            <p><strong>Position:</strong> Cybersecurity Engineer SIEM L2</p>
+                            <p><strong>Responsibilities:</strong></p>
+                            <ul>
+                                <li>Analysis, normalization, and enrichment of data for SIEM products by Pozitive Technologies (SIEM, VM).</li>
+                                <li>Development of correlation, normalization, enrichment, and aggregation rules to ensure cybersecurity.</li>
+                                <li>Holds MP CS SIEM, CP SIEM certificates.</li>
+                                <li>Experience in solving cases on the Standoff Cyberbones platform (free version).</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h4>April 2022 — September 2024</h4>
+                            <p><strong>Alfa-Bank (Belarus)</strong> - <a href="https://www.alfabank.by">www.alfabank.by</a></p>
+                            <p><strong>Position:</strong> IT Monitoring Specialist 2nd Category</p>
+                            <p><strong>Responsibilities:</strong></p>
+                            <ul>
+                                <li>Monitoring in Grafana and Zabbix for the bank's main processes.</li>
+                                <li>Incident documentation in Jira.</li>
+                                <li>Execution of scripts in emergency situations.</li>
+                                <li>Incident investigation among developers.</li>
+                                <li>Incident analytics in the banking environment.</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h4>September 2021 — December 2021</h4>
+                            <p><strong>Playtika</strong> - Minsk, <a href="https://playtika.com">playtika.com</a></p>
+                            <p><strong>Position:</strong> Junior DevOps Training</p>
+                            <p><strong>Responsibilities:</strong></p>
+                            <ul>
+                                <li>Training for the DevOps position.</li>
+                                <li>Study of Linux OS (Ubuntu, Debian, RedHat), including basic commands and script writing.</li>
+                                <li>Linux networking (wireshark, tcpdump, basic commands for network operations, ssh, apache web server).</li>
+                                <li>Work with Git (hooks, branching, tagging).</li>
+                                <li>Configuration and operation of PostgreSQL and MariaDB databases in Linux.</li>
+                                <li>Work with Aerospike, Jenkins, Docker, Kubernetes.</li>
+                                <li>Monitoring using Prometheus and Grafana.</li>
+                                <li>Automation of settings and software deployment using Ansible.</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <h3>Education and Certifications</h3>
+                        <ul>
+                            <li>MP CS SIEM, CP SIEM certificates.</li>
+                            <li>Experience in solving cases on the Standoff Cyberbones platform (free version).</li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>SIEM products by Pozitive Technologies (SIEM, VM)</li>
+                            <li>Monitoring systems (Grafana, Zabbix)</li>
+                            <li>Incident documentation (Jira)</li>
+                            <li>Linux OS (Ubuntu, Debian, RedHat)</li>
+                            <li>Networking technologies (wireshark, tcpdump, ssh, apache web server)</li>
+                            <li>Version control systems (Git)</li>
+                            <li>Databases (PostgreSQL, MariaDB)</li>
+                            <li>Containerization and orchestration (Docker, Kubernetes)</li>
+                            <li>Monitoring and automation (Prometheus, Grafana, Ansible)</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="copy">© Mikalai Daroshchanka (spizdil)</div>
+            </article>
+        </div>
+    </div>
 </body>
 </html>
