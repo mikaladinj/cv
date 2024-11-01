@@ -442,8 +442,28 @@ main {
   color: var(--light-gray-70);
   font-size: 18px;
 }
+.home__button-movil{
+  display: inline-block;
+  border: 2px solid var(--text-color-light);
+  color: var(--title-color);
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s;
+  font-weight: var(--font-medium);
+}
 
-
+.home__button-movil:hover{
+  background-color: var(--text-color-light);
+  color: var(--container-color);
+}
+.home__icon{
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}
+body.dark-theme{
+  --text-color-light: #d1c9c9;
+  --title-color: #f2f2f2;
+}
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
@@ -1881,3 +1901,36 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  
+  /*========== Colors ==========*/
+  --title-color: #fcfcfc;
+  --text-color: #403A3A;
+  --text-color-light: #707070;
+  --container-color: #fafafa;
+  --container-color-alt: #F0EFEF;
+  --body-color: #fcfcfc;
+
+}
+
+
+
+/*========== Generate PDF button ==========*/
+.generate-pdf{
+  display: none;
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.generate-pdf:hover{
+  color: var(--title-color);
+}
+
